@@ -1,0 +1,7 @@
+(name of the image file)
+(parallax or noparallax) (overlayer or nooverlayer)
+(number of total active objects)
+(number handle of active object) (object x) (object y) per object
+(width in tiles) (height in tiles)
+property array, should be width*2 by height*2
+(number of map to warp to) (warp x) (warp y)

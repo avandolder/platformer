@@ -1,0 +1,6 @@
+imageFileName.png (one 16x16 graphic)
+equip or noequip
+use or nouse
+useOnPickup or not
+
+list of things the item does

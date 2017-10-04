@@ -1,0 +1,11 @@
+list of things items can do:
+incPH arg1 - increment the player's health by arg1 amount when used
+incMaxPH arg1 - increment the player's max health by arg1 amount when used or equipped
+incDef arg1 - increment defense when equiped by arg1 amount
+incAtk arg1 - increment attack when equipped by arg1 amount
+isGrapplingHook - says whether the item is a grappling hook or not
+isShot - says whether the item is shot or not
+shotImage arg1 - image of when the item is shot (16*16 for 2 directions)
+shotDamage arg1 - damage done by the shot item
+shotRate arg1 - amount of shots allowed on the screen at once
+canDoubleJump - allows the player to double jump

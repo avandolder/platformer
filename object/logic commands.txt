@@ -1,0 +1,20 @@
+conditions:
+  hitbyplayer - what happens when the player collides with the object
+  hitbyitem arg1 - what happens when the object is hit by item arg1
+  hitbyobject arg1 - what happens when the object collides with object arg1
+  hitwall arg1 - what happens when the object hits a solid wall in arg1 direction
+  playerhas arg1 - what happens when the player has item arg1
+  playernothave arg1 - what happens when the player does not have item arg1
+  idle - what happens when the object is not doing anything
+  created - what happens when the object is created
+  destroyed - what happens when the object is destroyed
+  
+commands:
+  decPH arg1 - Decrement the players health by arg1 amount
+  incPH arg1 - Increment the players health by arg1 amount
+  destroythis - Destroy this object
+  destroy arg1 - Destroy object number arg1
+  giveplayer arg1 - Give the player item arg1
+  messageline arg1 - Write arg1 in a message box
+  warp arg1 arg2 arg3 - Warp the player to map arg1 at (arg2,arg3)
+  runevent arg1 - Run event number arg1

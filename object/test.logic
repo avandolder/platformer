@@ -1,0 +1,11 @@
+idle
+
+  local obj = pfGetCurrentObjectNumber()
+
+endcondition
+
+hitbyplayer
+
+  health = -1
+
+endcondition

@@ -1,0 +1,11 @@
+image/jumpBoot.png
+object/jumpBoot.logic
+1
+cannotMove
+left
+1
+0
+16 11
+cannotJump
+cannotFly
+appearOnce

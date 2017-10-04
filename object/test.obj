@@ -1,0 +1,11 @@
+image/testObject.png
+object/test.logic
+2
+canMove
+down
+4
+0
+32 32
+canJump
+cannotFly
+doesntAppearOnce

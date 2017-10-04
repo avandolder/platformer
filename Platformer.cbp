@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Platformer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Current">
+				<Option output="bin/Platformer" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-mconsole" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="release/bin/Platformer" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="release/bin" />
+				<Option object_output="release/obj" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add directory="C:/SFML-2.1/include" />
+			<Add directory="C:/Thor/include" />
+			<Add directory="C:/lua-5.2.3/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-mwindows" />
+			<Add library="mingw32" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="thor.dll" />
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add library="lua" />
+			<Add directory="C:/SFML-2.1/lib" />
+			<Add directory="C:/Thor/lib" />
+			<Add directory="C:/lua-5.2.3/lib" />
+		</Linker>
+		<Unit filename="cleanup.cpp" />
+		<Unit filename="common.hpp" />
+		<Unit filename="enums.hpp" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.hpp" />
+		<Unit filename="gameObject.cpp" />
+		<Unit filename="gameObject.hpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="load.cpp" />
+		<Unit filename="logic.cpp" />
+		<Unit filename="logic.hpp" />
+		<Unit filename="luaHandler.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="map.cpp" />
+		<Unit filename="map.hpp" />
+		<Unit filename="save.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

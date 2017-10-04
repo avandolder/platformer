@@ -1,0 +1,11 @@
+imageFileName.png
+logicFileName.logic or player
+objectNumber
+canMove or cannotMove
+startingDirection (left, right, up, down)
+totalFrames
+startingFrame (0,1,2,3)
+width height
+canJump or cannotJump
+canFly or cannotFly
+appearOnce or doesntAppearOnce

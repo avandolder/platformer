@@ -1,0 +1,6 @@
+hitbyplayer
+
+	pfGivePlayer ( 0 )
+	pfDestroyObject ( pfGetCurrentObjectNumber() )
+
+endcondition

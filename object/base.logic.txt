@@ -1,0 +1,13 @@
+condition1 [arg1 ... argn]
+
+  lua commands
+
+endcondition
+
+...
+
+conditionn [arg1 ... argn]
+
+  lua commands
+
+endcondition

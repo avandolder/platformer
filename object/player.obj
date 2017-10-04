@@ -1,0 +1,11 @@
+image/sprite.png
+player
+0
+canMove
+right
+4
+0
+32 32
+canJump
+canFly
+doesntAppearOnce

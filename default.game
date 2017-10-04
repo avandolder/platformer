@@ -1,0 +1,5 @@
+Adam's Awesome Platformer
+3
+object/player.obj object/jumpBoot.obj object/test.obj
+2
+map/sample.map map/otherMap.map
